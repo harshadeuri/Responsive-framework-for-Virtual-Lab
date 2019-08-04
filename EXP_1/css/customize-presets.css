@@ -1,0 +1,26 @@
+.customize .p1 rect {
+  fill: #793A57;
+}
+
+.customize .p1 circle {
+  fill: rgba(93, 28, 64, 0.89);
+  stroke: #793A57;
+}
+
+.customize .p1 text {
+  fill: #793A57;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.customize .p1 text.active {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.scale .active{
+  fill: #FFFFFF;
+}
+.responsive {
+  max-width: 100%!important;
+  height: auto!important;
+}

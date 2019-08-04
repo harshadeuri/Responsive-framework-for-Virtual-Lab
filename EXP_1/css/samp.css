@@ -1,0 +1,90 @@
+html, body {min-height: 100%;}
+body {
+	background-image: url("../images/bg.png");
+  	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+
+
+	}
+.header {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+
+.header h1.logo {
+  font-size: 2.2rem;
+  font-weight: 800;
+  text-align: center;
+  margin-top:2rem;
+  font-family: Roboto;
+  
+}
+
+.form-group{
+	margin-left: 2rem;
+	margin-top: 3rem;
+	font-weight: bold;
+}
+.form-control{
+	max-width:100%;
+	width:6rem;
+	font-size: 100%;
+}
+
+.knobs{
+	margin-top: 1rem;
+	margin-left: 1rem;
+	float: left;
+}
+
+input#Amplitude.preset1{
+	max-width: 100%;
+	width:12%;
+}
+
+input#Frequency.preset1{
+	max-width: 100%;
+	width:12%;
+	margin-top:9rem;
+}
+
+input#Phase.preset1{
+	max-width: 100%;
+	width:12%;
+	margin-top:8rem;
+}
+
+button#Submit.btn.btn-primary{
+	margin-top: -10rem;
+	max-width: 100%;
+	margin-left:15rem;
+	font-size: 100%;
+	min-width: 14%;
+
+}
+#div_voltageknob{
+	padding: 10px;
+}
+
+#output{
+	float: left;
+	margin-top: -30rem;
+	position: relative;
+}
+
+img{
+	margin-top: -30rem;
+    float: right;
+    max-width: 100%;
+    width: 50%;
+    
+}
+div#imageContainer{
+	top: 20rem;
+    position: absolute;
+    right: 20rem;
+
+}

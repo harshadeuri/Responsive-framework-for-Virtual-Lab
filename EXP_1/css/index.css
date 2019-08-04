@@ -1,0 +1,60 @@
+html,body{
+  {min-height: 100%;}
+}
+body {
+	background-image: url("../images/bg.png");
+  background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+	}
+.header {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+
+.header h1.logo {
+  font-size: 2.2rem;
+  font-weight: 800;
+  text-align: center;
+  margin-top:1rem;
+  font-family: Roboto;
+  
+}
+
+#sig_sel{
+	padding:3px;
+	font-size:1rem;
+	font-weight:bold;
+	margin-top:1.5rem;
+
+}
+.form-control{
+	width: 7.2rem;
+	margin-top:2rem;
+	margin-left: -1rem;
+	
+}
+img{
+max-width: 100%;
+  height: auto;
+  margin-left:25rem;
+  margin-top:-3.5rem;
+  width:50%;
+
+}
+
+.img-box{
+  position: absolute;
+  top: -1.1rem;
+  left: 28.3rem;
+  font-size: 18px;
+ 
+
+}
+#con{
+	position: relative;
+	
+
+}
